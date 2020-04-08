@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <title>Document</title>
+    <style>
+        * {
+            padding: 0px;
+            margin: 0px;
+        }
+
+        .container {
+            height: 50rem;
+            width: 30rem;
+            border: 2px solid black;
+            display: flex;
+            margin-top: 4rem;
+            padding: 0px;
+            flex-direction: column;
+        }
+
+        .header {
+            height: 5rem;
+            width: 100%;
+            /* border: 2px solid blue; */
+            background-color: skyblue;
+            display: flex;
+            align-items: center;
+        }
+
+        #cap {
+            height: 4rem;
+            width: 4rem;
+        }
+
+        #close {
+            height: 1rem;
+            width: 1rem;
+            margin-left: 1rem;
+        }
+
+        #heading {
+            margin: 0rem 8rem;
+        }
+
+        .form_ {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .form_ input {
+            padding: 1rem;
+            margin: 1rem;
+        }
+
+        #submit {
+            border-radius: 1rem;
+            background-color: skyblue;
+        }
+
+        .unable_to_signin {
+            display: flex;
+            margin-top: 1rem;
+        }
+
+        #forgot {
+            margin-right: 6rem;
+            margin-left: 1rem;
+        }
+
+        .unable_to_signin a {
+            text-decoration: none;
+        }
+
+        .rule {
+            display: flex;
+            font-size: 1.5rem;
+            justify-content: center;
+            margin: 1rem;
+        }
+
+        .rule p {
+            margin: 0rem 1rem;
+        }
+
+        hr {
+            width: 30%;
+        }
+
+        .social {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+
+        #facebook {
+            display: flex;
+            /* border: 2px solid violet; */
+            height: 4rem;
+            width: 90%;
+            text-align: center;
+            background-color: #3b5998;
+            margin-bottom: 1rem;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            text-decoration: none;
+        }
+
+        #google {
+            display: flex;
+            /* border: 2px solid violet; */
+            height: 4rem;
+            width: 90%;
+            text-align: center;
+            background-color: #de5246;
+            margin-bottom: 1rem;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            text-decoration: none;
+        }
+
+        #epam {
+            display: flex;
+            /* border: 2px solid violet; */
+            height: 4rem;
+            width: 90%;
+            text-align: center;
+            background-color: #a8e051;
+            margin-top: 3rem;
+            align-items: center;
+            justify-content: center;
+            text-decoration: none;
+            color: white;
+        }
+        .so{
+            border-radius: 1rem;
+            
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">
+            <a href="#"><img id="cap" src="graduate.png" alt=""></a>
+            <h2 id="heading">Sign in</h2>
+            <a href="#"><img id="close" src="close.png" alt=""></a>
+        </div>
+        <form class="form_">
+            <input type="email" name="email" id="" placeholder="mail@example.com">
+            <input type="password" name="password" id="" placeholder="password" password>
+            <input id="submit" type="submit" value="SIGN IN">
+        </form>
+        <div class="unable_to_signin">
+            <a href="#" id="forgot">
+                <p>Forgot your password?<p>
+            </a>
+            <a href="#">
+                <p>Register!</p>
+            </a>
+        </div>
+        <div class="rule">
+            <hr>
+            <p>OR</p>
+            <hr>
+        </div>
+        <div class="social">
+            <a href="#" id="facebook" class="so">
+                <h2>f</h2>
+            </a>
+
+            <a href="#" id="google" class="so">
+                <h2>g</h2>
+            </a>
+
+
+            <a href="#" id ="epam" class="so">
+                <h2>
+                    < EPAM LOGIN>
+                </h2>
+            </a>
+
+
+        </div>
+    </div>
+
+</body>
+
+</html>

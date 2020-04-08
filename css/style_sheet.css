@@ -42,11 +42,11 @@ body{
 
 #profilepic {
     padding: 1vh;
-    margin: 1vh;
+    margin: 5vh;
     border: .5vh solid white;
-    background-color: royalblue;
-    height: 50vh;
-    width: 50vh;
+    background-color: #6441a5;
+    height: 40vh;
+    width: 40vh;
     border-radius: 50%;
 }
 
@@ -118,7 +118,7 @@ body{
     border: none;
 }
 #fb{
-    background-image: url("../img/fb.png");
+    background-image: url("../img/fb.png"); 
 }
 #insta{
     background-image: url("../img/insta.png");
@@ -130,7 +130,7 @@ body{
     background-image: url("../img/twitter.png");
 }
 .bg-light {
-    background-color: #2321a5 !important;
+    background-color: #6441a5 !important;
 }
 .navbar-brand {
     color: rgba(255, 255, 255, 0.9);
@@ -139,4 +139,10 @@ body{
 
 .navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
     color: rgba(255, 255, 255, 0.9);
+}
+button:hover{
+    height: 5rem;
+    width: 5rem;
+    background-repeat: no-repeat;
+    background-size: 5rem 5rem;
 }
